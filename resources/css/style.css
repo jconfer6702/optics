@@ -12,6 +12,7 @@ body{
   justify-content: space-between;
   background-color: cadetblue;
   align-items: center;
+  color: white;
 }
 #logo{
   display: flex;
@@ -43,4 +44,15 @@ font-family: helvetica;
 font-size: 2rem;
 font-weight: bold;
 line-height: 1.2;
+}
+.flex-container-items{
+  display:flex;
+justify-content: space-around;
+flex-direction: row;
+flex-wrap: wrap;
+padding-top: 3rem;
+
+}
+.picture figure{
+  text-align: center;
 }
